@@ -1,0 +1,52 @@
+body{
+    background-color: white;
+    display:flex;
+    flex-direction: column;
+}
+
+h1{
+    font-size:40px;
+}
+
+h3{
+    font-size:30px;
+}
+
+#Menu{
+    display:flex;
+    flex-direction:row;
+    width:100%;
+    height:200px;
+}
+
+.Menu{
+    background-color: white;
+    display:flex;
+    flex-direction:column;
+    width:35%;
+    height:200px;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration:none;
+}
+
+a:link{
+    color:black;
+}
+
+a:visited{
+    color:black;
+}
+
+a:hover{
+    background-color: lightgray;
+}
+
+a:active{
+    background-color:grey;
+}
+
+#Compte{
+    background-color: grey;
+}
+
