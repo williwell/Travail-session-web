@@ -37,7 +37,9 @@
                 
         </div>
         <div id="Corps">
-        
+        <form action="Ajout.php" method="POST">
+            <button type="submit" onclick="window.location.href='RechercheD.php'" form="formulaire" value="Deconnexion">Déconnexion</button>
+        </form>
         </div>
     </body>
 </html>
