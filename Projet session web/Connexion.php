@@ -19,12 +19,12 @@
             </div>
         </div>
         <div id="Menu">
-        <a href="Recherche.php" class="Menu" id="Recherche">
+        <a href="RechercheD.php" class="Menu" id="Recherche">
             <div>
                 <h3>Recherche</h3>
             </div>
         </a>
-        <a href="Livres.php" class="Menu" id="Livres">
+        <a href="#" onclick="alert('Connectez-vous avant de pouvoir ajouter des livres');" class="Menu" id="Livres">
             <div>
                 
                 <h3>Mes livres</h3>
@@ -38,7 +38,13 @@
                 
         </div>
         <div id="Corps">
-        
+        <form action="Ajout.php" method="POST">
+            <label for="id">ID</label>
+            <input type="text" id="id" name="id" readonly><br>
+            <label for="titre">Titre</label>
+            <input type="text" id="titre" name="titre" maxlength="100"><br>
+            <button type="submit" onclick="window.open('RechercheC.php')" form="formulaire" value="Connexion">Connexion</button>
+        </form>
         </div>
     </body>
 </html>
