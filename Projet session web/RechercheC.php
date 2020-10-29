@@ -19,7 +19,7 @@
             </div>
         </div>
         <div id="Menu">
-        <a href="Recherche.php" class="Menu" id="Recherche">
+        <a href="RechercheC.php" class="Menu" id="Recherche">
             <div>
                 <h3>Recherche</h3>
             </div>
